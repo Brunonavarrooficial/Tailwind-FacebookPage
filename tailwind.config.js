@@ -6,6 +6,11 @@ module.exports = {
       colors: {
         'facebook-blue': '#1877F2',
         'gray-background': '#F0F2F5',
+        'text-second': '#0f172a',
+      },
+      spacing: {
+        '580': '580px',
+        '380': '380px',
       },
     },
   },
