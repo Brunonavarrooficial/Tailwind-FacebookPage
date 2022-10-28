@@ -557,7 +557,32 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-regal-blue {
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-gray-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 242 245 / var(--tw-bg-opacity));
+}
+
+.text-facebook-blue {
   --tw-text-opacity: 1;
   color: rgb(24 119 242 / var(--tw-text-opacity));
 }
