@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .container-custom {
+        @apply w-screen h-screen bg-gray-background flex items-center justify-center flex-col md:flex-row;
+    }
+
+    .block-text-intro {
+        @apply w-580 pr-8 text-center md:text-left;
+    }
+    
+    .form{
+        @apply bg-white p-4 w-380 rounded-md flex justify-center items-center flex-col shadow-lg mt-4;
+    }
+    
+    .input-custom-facebook {
+        @apply border-gray-300 rounded-sm border w-full h-14 mb-2.5 pl-2;
+    }
+
+    .button-entrar {
+        @apply h-12 w-full bg-facebook-blue rounded-md text-white;
+    }
+    
+    .button-esqueceu {
+        @apply text-facebook-blue mt-4;
+    }
+
+    .linha-flutuante {
+        @apply w-full m-4 border-gray-300 border;
+    }
+
+    .button-criar {
+        @apply h-12 bg-green-facebook rounded-md text-white px-4;
+    }
+}
